@@ -24,7 +24,7 @@ Get account of Infura and paste Metamask secret key and Infura endpoint by rinkb
 
 ```
 $ cd Lottery_React
-$ npm init => enter enter...
+
 $ npm install
 ```
 
@@ -36,3 +36,7 @@ $ npm install
 
 `$ npm start`
 Visit this URL in your browser: http://localhost:3000
+
+## Solidity
+
+To know the original smart contract, refer to "Lottery_React" repository
