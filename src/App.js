@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   onSubmit = async event => {
-    event.preventDefault();
+    event.preventDefault(); //デフォルトの処理をキャンセル。非通信同期より、下記コードを優先している。
 
     const accounts = await web3.eth.getAccounts();
 
@@ -103,7 +103,9 @@ constructor(props) {
 callの引数に{ from:accounts[0] }は必要ない。metamaskでCallするアカウントを設定しているから。
 
 
-*web3.utils.fromWei ==> toWeiとの違いは？
+*web3.utils.fromWei ==> toWeiとの違い:
+toWei ==> Converts any ether value into wei.
+fromWei ==> Converts from Wei to other value. 
 
 *event.preventDefault ==> HTMLのリンクやチェックボックスなどによるイベントをキャンセルするメソッド
 

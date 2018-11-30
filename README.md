@@ -12,12 +12,6 @@ Install these software to use this app.
 
 - Metamask: https://metamask.io/
 
-## API
-
-Get account of Infura and paste Metamask secret key and Infura endpoint by rinkby in /Lottery_Solidity/deploy.js.
-
-- Infura: https://infura.io/login
-
 ## Step 1. Clone the project
 
 ## Step 2. Install dependencies
